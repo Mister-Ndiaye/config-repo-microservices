@@ -11,7 +11,6 @@ spring:
         jwt:
           jwk-set-uri: http://localhost:8484/auth/realms/adel/protocol/openid-connect/certs
   application:
-    name: analyse
     discovery:
       enabled: true
   zipkin:
