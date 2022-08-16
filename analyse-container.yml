@@ -52,7 +52,7 @@ swagger:
 
 camunda:
   client:
-    base-url: ${BASE_URL_CAMUNDA:http://localhost:8082/engine-rest} # the URL pointing to the Camunda Platform Runtime REST API
+    base-url: ${BASE_URL_CAMUNDA:http://camunda:8082/engine-rest} # the URL pointing to the Camunda Platform Runtime REST API
     lock-duration: ${LOCK_DURATION:10000 } # defines how many milliseconds the External Tasks are locked until they can be fetched again
 
 eureka:
