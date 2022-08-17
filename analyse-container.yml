@@ -1,6 +1,12 @@
 
 spring:
-
+  zipkin:
+    enabled: true
+    base-url: http://zipkin:9411/
+   sleuth:
+    sampler:
+      probability: 1.0
+  
   cloud:
   security:
     oauth2:
@@ -10,13 +16,7 @@ spring:
   application:
     discovery:
       enabled: true
-  zipkin:
-    enabled: true
-   sleuth:
-    sampler:
-      probability: 1.0
-  zipkin:
-    base-url: http://zipkin:9411/
+
   jpa:
     database: POSTGRESQL
     show-sql: true
@@ -28,7 +28,7 @@ spring:
     username: ${user:adel}
     password: ${DB_PASS:passer123}
     url: jdbc:postgresql://${DB_HOST:10.42.1.204}:${DB_PORT:5432}/${DB_NAME:analyse_selection}
-
+  
 ##eureka
 #eureka:
 #  client:
