@@ -36,4 +36,4 @@ keycloak:
   resource: gateway
   public-client: true
   use-resource-role-mappings: true
-  ssl-required: external
+  ssl-required: none
