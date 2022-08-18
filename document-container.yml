@@ -3,7 +3,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          jwk-set-uri: http://keycloak:8484/auth/realms/adel/protocol/openid-connect/certs
+          jwk-set-uri: http://keycloak:8080/auth/realms/adel/protocol/openid-connect/certs
 
   application:
     name: document
