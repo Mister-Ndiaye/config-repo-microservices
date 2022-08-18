@@ -12,9 +12,9 @@ spring:
 
   datasource:
     driver-class-name: org.postgresql.Driver
-    username: ${DB_USER:portal_api}
-    password: ${DB_PASS:Test123}
-    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:camunda}
+    username: ${DB_USER:adel}
+    password: ${DB_PASS:passer123}
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5433}/${DB_NAME:camunda}
     hibernate.ddl-auto: validate
   jpa:
     hibernate:
