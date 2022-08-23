@@ -49,6 +49,6 @@ eureka:
 
 
 
-
+amar : Hello 
 server:
   port: 8083
