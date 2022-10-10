@@ -31,9 +31,13 @@ spring:
 
 
 camunda:
-  bpm.admin-user:
+  bpm :
+    admin-user:
     id: ${CAMUNDA_USERNAME:demo}
     password: ${CAMUNDA_PASSWORD:demo}
+    default-serialization-format: application/json
+
+
 # Logger configuration
 
 management:
