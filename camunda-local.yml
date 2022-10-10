@@ -31,7 +31,7 @@ spring:
 
 
 camunda:
-  bpm :
+  bpm:
     admin-user:
     id: ${CAMUNDA_USERNAME:demo}
     password: ${CAMUNDA_PASSWORD:demo}
