@@ -21,7 +21,7 @@ spring:
     database: POSTGRESQL
     show-sql: true
     hibernate:
-  #    ddl-auto: update
+      ddl-auto: validate
 
   datasource:
     driver-class-name: org.postgresql.Driver
@@ -30,7 +30,7 @@ spring:
     url: jdbc:postgresql://${DB_HOST:10.42.1.204}:${DB_PORT:5432}/${DB_NAME:analyse_selection}
   flyway:
     baseline-on-migrate : true
-    enabled: true
+    enabled: false
 ##eureka
 #eureka:
 #  client:
