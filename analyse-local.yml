@@ -22,7 +22,7 @@ spring:
     database: POSTGRESQL
     show-sql: true
     hibernate:
-      ddl-auto: update
+#      ddl-auto: update
 
   datasource:
     driver-class-name: org.postgresql.Driver
