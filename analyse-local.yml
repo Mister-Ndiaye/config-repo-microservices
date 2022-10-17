@@ -20,7 +20,7 @@ spring:
     
   jpa:
     database: POSTGRESQL
-    show-sql: true
+#    show-sql: true
     hibernate:
 #      ddl-auto: update
 
